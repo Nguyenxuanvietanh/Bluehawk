@@ -14,12 +14,33 @@
     width: 90%;	
 }
 
+.mb-25 {
+    margin-bottom: 25px !important;
+}
+
 .mb-50{
     margin-bottom: 50px !important;
 }
 
 .mb-75{
     margin-bottom: 75px !important;
+}
+
+.mb-125{
+    margin-bottom: 125px !important;
+}
+
+.mb-0{
+    margin-bottom: 0 !important;
+}
+
+
+.mt-75{
+    margin-top: 75px !important;
+}
+
+.mt-50{
+    margin-top: 50px !important;
 }
 
 .font-size-50{
@@ -143,23 +164,23 @@
     color: #4C82BD;
 }
 .wrap-btn-banner-home a{
-    background-color: rgb(255 81 41);
+    background-color: #FF5129;
     border: none;
     border-radius: 0px;
     padding: 10px;
 }
 .wrap-btn-banner-home a:hover{
-    background-color: rgb(255 81 41);
+    background-color: #FF5129;
     border: none;
     border-radius: 0px;
 }
 .wrap-btn-banner-home a:active{
-    background-color: rgb(255 81 41) !important;
+    background-color: #FF5129 !important;
     border: none;
     border-radius: 0px;
 }
 .wrap-btn-banner-home a:focus{
-    background-color: rgb(255 81 41);
+    background-color: #FF5129;
     border: none;
     border-radius: 0px;
 }
@@ -167,11 +188,11 @@
     background-color: rgb(49 77 94);
 }
 #features {
-    font-size: 20px;
+    padding: 0;
 }
 
 #features .row.content {
-    padding: 100px;
+    padding: 150px 186px;
 }
 
 .bg-blue {
@@ -193,7 +214,8 @@
 }
 
 span.content-title {
-    color: #07375B;
+    letter-spacing: 0.3px;
+    color: #4589BC;
     font-weight: bold;
 }
 
@@ -263,8 +285,12 @@ hr.contact-line {
 
 .inclusion-item {
     background-color: #f1f4f6;
-    /* box-shadow: 0 0 30px rgba(214, 215, 216, 0.6); */
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
     padding: 50px;
+}
+
+.inclusion-item image {
+
 }
 
 .coporate-item .icon {
@@ -278,6 +304,15 @@ hr.contact-line {
 
 .case_study .slogan {
     background-color: #f1f4f6;
+}
+
+.case_study .fa-arrow-left {
+    font-size: 25px;
+    color: #FF5129;
+}
+
+.case_study h4 {
+    color: #4589BC;
 }
 
 @media (max-width: 768px) {
@@ -381,7 +416,23 @@ margin-top: 30px;
 }
 #about .text-2{
     font-size: 25px;
-    }
+}
+
+#career-index {
+    background-color: #07375B;
+}
+
+#career-index .container h2 {
+    color:#fff;
+}
+
+.single-title {
+    color: #206C76;
+}
+
+#inclusion {
+    background-color: #BACAD3;
+}
 
 
 /*Fix issue white space below footer in large screen*/
