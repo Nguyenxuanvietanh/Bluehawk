@@ -43,6 +43,18 @@
     margin-top: 50px !important;
 }
 
+.pr-70 {
+    padding-right: 70px!important;
+}
+
+.pl-70 {
+    padding-left: 70px!important;
+}
+
+.pl-13 {
+    padding-left: 13px;
+}
+
 .font-size-50{
     font-size: 50px;
 }
@@ -55,12 +67,24 @@
     font-size: 40px;
 }
 
+.font-size-35{
+    font-size: 35px;
+}
+
 .font-size-75{
     font-size: 75px;
 }
 
 .font-size-25{
     font-size: 25px;
+}
+
+.font-size-22{
+    font-size: 22px;
+}
+
+.font-size-17{
+    font-size: 17px;
 }
 
 .font-size-20{
@@ -187,13 +211,6 @@
 .banner-hawk{
     background-color: rgb(49 77 94);
 }
-#features {
-    padding: 0;
-}
-
-#features .row.content {
-    padding: 150px 186px;
-}
 
 .bg-blue {
     background-color: #f1f4f6;
@@ -206,6 +223,7 @@
     font-weight: bold;
     color: #07375B;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .feature-title.feature-title-light {
@@ -249,14 +267,14 @@ p.read-more-detail i {
     background-color: #07375b;
 }
 
-#contact-us .btn-orange {	
+.btn-orange {	
     color: #fff;	
     background-color:#FF5129;	
     border-color: #FF5129;	
     padding: 15px 25px;
 }	
-#contact-us .btn-orange:hover,	
-#contact-us .btn-orange:focus {	
+.btn-orange:hover,	
+.btn-orange:focus {	
     color: #fff;	
     background-color: rgb(253, 46, 0);	
     border-color: rgb(253, 46, 0);	
@@ -320,8 +338,20 @@ hr.contact-line {
         padding: 10px 0 10px 20px;
     }
 
-    #features .row.content {
-        padding: 20px;
+    .pr-60 {
+        padding-right: 15px!important;
+    }
+    
+    .pl-60 {
+        padding-left: 15px!important;
+    }
+
+    .inclusion-item {
+        padding: 15px;
+    }
+
+    .smb-150 {
+        margin-bottom: 150px;
     }
 }
 .r_brand_banner{
@@ -432,6 +462,11 @@ margin-top: 30px;
 
 #inclusion {
     background-color: #BACAD3;
+}
+
+.slash-icon {
+    color: #BACAD3;
+    padding: 0 10px;
 }
 
 
